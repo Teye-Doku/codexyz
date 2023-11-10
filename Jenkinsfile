@@ -9,7 +9,7 @@ pipeline{
         }
         stage(' Testing Stage') {
             steps {
-                echo 'this is the testing stage'
+                echo 'this is the testing stage $BUILD_NUMBER'
             }
         }
         stage('Build Image Stage'){
