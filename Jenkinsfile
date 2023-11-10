@@ -9,12 +9,12 @@ pipeline{
         }
         stage(' Testing Stage') {
             steps {
-                sh 'this is the testing stage'
+                echo 'this is the testing stage'
             }
         }
         stage('Build Image Stage'){
             steps {
-                sh "ls"
+                sh 'ls'
             }
         }
     }
