@@ -14,7 +14,8 @@ pipeline{
         }
         stage('Build Image Stage'){
             steps {
-                sh 'ls'
+                sh " docker build -t codexyz:1.$BUILD_NUMBER ."
+                sh "docker images"
             }
         }
     }
