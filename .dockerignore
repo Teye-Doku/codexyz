@@ -3,3 +3,4 @@ node_modules
 gitlab-ci.yaml
 Jenkinsfile
 .gitignore
+Dockerfile.*
