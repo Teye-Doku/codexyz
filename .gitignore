@@ -2,3 +2,4 @@
 node_modules
 gitlab-ci.yaml
 .env
+procard
